@@ -80,7 +80,7 @@ const Home = () => {
          </BgLayout>
          {/* who section end  */}
          {/* projects section start  */}
-         <section className="py-16 px-2  md:px-40">
+         <section className="py-16 px-2  md:px-40 ">
             <div className="text-center mb-10">
                <h2 className="text-3xl font-bold uppercase">Our Projects</h2>
                <p className="text-gray-500 mt-2">
@@ -91,7 +91,7 @@ const Home = () => {
             <div className="relative">
                <Swiper
                   modules={[Navigation,Autoplay]}
-                  spaceBetween={30}
+                  spaceBetween={10}
                   slidesPerView={1}
                   autoplay={{ delay: 2500, disableOnInteraction:true, }} 
                   navigation={{
@@ -125,7 +125,7 @@ const Home = () => {
          {/* projects section end  */}
 
          {/* client section start  */}
-         <div className="container mx-auto px-5 md:px-50 my-10 flex justify-center md:relative h-[100vh] md:h-[80vh]">
+         <div className="container mx-auto px-5 md:px-50 my-10 flex justify-center md:relative h-screen md:h-[80vh]">
         <Swiper
           modules={[ Autoplay, Pagination]}
           autoplay={{ delay: 2500, disableOnInteraction:false, }}

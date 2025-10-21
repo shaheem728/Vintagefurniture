@@ -19,12 +19,12 @@ const ProjectCard = ({ image, title }) => {
       <img
         src={image}
         alt={title}
-        className="w-full md:h-72 object-cover"
+        className="w-full md:h-80 object-cover"
       />
 
       {/* Title */}
       <div className="absolute bottom-0 w-full py-3 text-center">
-        <p className="text-white uppercase tracking-wide text-sm font-semibold">
+        <p className="text-white uppercase tracking-wide text-xl font-semibold">
           {title}
         </p>
       </div>
