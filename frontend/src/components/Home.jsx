@@ -143,11 +143,11 @@ const Home = () => {
 
               <div className="grid md:grid-cols-2 gap-8  ">
                 {/* Client 1 */}
-                <div className="bg-white p-5 shadow w-auto md:w-[60%]  border md:absolute md:top-32 md:left-0    ">
+                <div className="bg-white p-5 shadow w-auto md:w-[60%]  border md:absolute md:top-40 md:left-0    ">
                   <div className="flex md:flex-row flex-col space-y-3">
                     <div className="w-36 relative ">
                       <img src={item.img1} alt="client"   />
-                      <img src={assets.quoteIcon} alt="Quote" className='absolute -bottom-1 md:bottom-6 left-16 '/>
+                      <img src={assets.quoteIcon} alt="Quote" className='absolute -bottom-1 md:bottom-3 left-16 '/>
                     </div>
                     <div className="w-3/4 md:pl-7 space-y-3">
                       <h1 className="text-xl  ">{item.name}</h1>
@@ -161,7 +161,7 @@ const Home = () => {
                  <div className="flex md:flex-row flex-col space-y-3">
                     <div className="w-36 relative  ">
                       <img src={item.img2} alt="client"   />
-                      <img src={assets.quoteIcon} alt="Quote" className='absolute -bottom-1 md:bottom-6  left-16 '/>
+                      <img src={assets.quoteIcon} alt="Quote" className='absolute -bottom-1 md:bottom-3  left-16 '/>
                     </div>
                     <div className="w-3/4 md:pl-7 space-y-3">
                       <h1 className="text-xl ">{item.name}</h1>
