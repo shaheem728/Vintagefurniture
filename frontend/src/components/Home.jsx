@@ -28,7 +28,7 @@ const Home = () => {
                spaceBetween={30} 
                slidesPerView={1} 
                autoplay={{ delay: 2500, disableOnInteraction:true, }} 
-               navigation={{ nextEl: ".nextBtn", prevEl: ".prevBtn", }} 
+               navigation={{ nextEl: ".rightArrow", prevEl: ".leftArrow", }} 
                loop={true} >
                    {slides.map((slide, index) => 
                      (<SwiperSlide key={index}> 
@@ -46,13 +46,13 @@ const Home = () => {
 
                {/* Custom Navigation Buttons */}
                <button
-                  className="prevBtn hidden md:flex absolute top-1/2 left-4 h-10 w-10 md:h-24 md:w-24  justify-center items-center bg-black rounded-full focus:bg-[#ffb607] hover:bg-[#ffb607]"
+                  className="leftArrow z-10 hidden md:flex absolute top-1/2 left-5 h-10 w-10 md:h-24 md:w-24  justify-center items-center bg-black rounded-full focus:bg-[#ffb607] hover:bg-[#ffb607]"
                >
                   <img src={assets.leftArrow} alt="Prev" className="w-3 md:w-7" />
                </button>
 
                <button
-                  className="nextBtn hidden md:flex absolute top-1/2 right-4  h-10 w-10 md:h-24 md:w-24  justify-center items-center bg-black rounded-full focus:bg-[#ffb607] hover:bg-[#ffb607]">
+                  className="rightArrow z-10 hidden md:flex absolute top-1/2 right-5  h-10 w-10 md:h-24 md:w-24  justify-center items-center bg-black rounded-full focus:bg-[#ffb607] hover:bg-[#ffb607]">
                   <img src={assets.rightArrow} alt="Next" className="w-3 md:w-7" />
                </button>
             </div>
