@@ -36,7 +36,7 @@ const Home = () => {
                         <div> <h1 className="text-5xl md:text-8xl mt-10 md:mt-20  md:mb-4">{slide.title}</h1> 
                         <p className="max-w-2xl mx-auto mb-6 text-sm md:text-lg">{slide.desc}</p> 
                         </div> 
-                        <Link href="/contact" className=" bg-[#ffb607] text-lg px-5 md:px-10 hover:bg-black text-white py-3 rounded-md " > CONTACT US </Link> 
+                        <Link to="/contact" className=" bg-[#ffb607] text-lg px-5 md:px-10 hover:bg-black text-white py-3 rounded-md " > CONTACT US </Link> 
                         </div> 
                         </SwiperSlide>
                      ))} 
